@@ -1,0 +1,185 @@
+# Page snapshot
+
+```yaml
+- navigation:
+  - paragraph: CHILE ¡Bienvenido al ambiente de demostración de relBase! Podrá visualizar y explorar todas las funcionalidades disponibles.
+- navigation:
+  - link "Relbase blanco":
+    - /url: https://demo.relbase.cl/
+    - img "Relbase blanco"
+  - list:
+    - listitem:
+      - link " Clientes":
+        - /url: https://demo.relbase.cl/clientes
+        - text: 
+        - paragraph: Clientes
+    - listitem:
+      - link " Ventas":
+        - /url: /ventas
+        - text: 
+        - paragraph: Ventas
+    - listitem:
+      - link " Punto de venta":
+        - /url: https://demo.relbase.cl/posv2/punto-de-venta
+        - text: 
+        - paragraph: Punto de venta
+    - listitem:
+      - link " Exportación":
+        - /url: https://demo.relbase.cl/dtes/facturas-exportacion
+        - text: 
+        - paragraph: Exportación
+    - listitem:
+      - link " Eventos":
+        - /url: https://demo.relbase.cl/calendario
+        - text: 
+        - paragraph: Eventos
+    - listitem:
+      - link " Configuración":
+        - /url: "#"
+        - text: 
+        - paragraph:
+          - text: Configuración
+          - strong
+  - list:
+    - listitem:
+      - button " Servici...":
+        - text: 
+        - paragraph: Servici...
+    - listitem:
+      - button " QA":
+        - text: 
+        - paragraph: QA
+- list:
+  - listitem:
+    - link "Inicio":
+      - /url: https://demo.relbase.cl/
+  - listitem:
+    - text: /
+    - link "Notas de venta":
+      - /url: https://demo.relbase.cl/dtes/notas-venta
+  - listitem: / Nueva nota de venta
+- text: Sucursal*
+- combobox "Casa matriz"
+- text: Documento tributario*
+- combobox "Seleccione..."
+- text: Bodega *
+- combobox "Bodega principal"
+- text: Cliente *
+- combobox "Seleccione..."
+- text: Dirección *
+- textbox
+- text: Ciudad *
+- combobox "Seleccione..."
+- text: Comuna *
+- combobox "Seleccione..."
+- text: Contacto
+- textbox
+- text: Plazo de entrega
+- textbox
+- text: Canal venta 
+- combobox "Seleccione..."
+- text: Vendedor *
+- combobox "QA Junior"
+- text: Papel en impresora térmica ON OFF
+- checkbox
+- text: Folio *
+- strong: "149"
+- text: Tipo documento *
+- strong: NOTA DE VENTA
+- text: Fecha creación *
+- textbox: 24-07-2025
+- text: Fecha entrega
+- textbox: 24-07-2025
+- text: Forma de pago
+- combobox "Cheque"
+- text: Moneda *
+- combobox "Pesos"
+- text: Nº pedido
+- textbox
+- text: Observaciones pago
+- 'textbox "Ej: Datos de transferencia. (máx 200. caracteres)"'
+- text: Lista de precios
+- combobox "Base"
+- text: Sinc. con E-Commerce  ON OFF
+- checkbox [checked]
+- text: Orden alfabético  ON OFF
+- checkbox
+- text: "Nº filas: 1"
+- link " Agregar fila":
+  - /url: "#"
+- table:
+  - rowgroup:
+    - row "Producto * Descripción Cantidad * Precio neto * % Desc. ($) Recargo Af/Ex Sub Total":
+      - cell "Producto *"
+      - cell "Descripción"
+      - cell "Cantidad *"
+      - cell "Precio neto *"
+      - cell "% Desc."
+      - cell "($) Recargo"
+      - cell "Af/Ex"
+      - cell "Sub Total"
+      - cell
+  - rowgroup:
+    - row "Seleccione... 0  ":
+      - cell "Seleccione...":
+        - combobox "Seleccione..." [expanded]:
+          - text: Seleccione...
+          - tree:
+            - treeitem "[T-T-345996] Teclado"
+            - treeitem "[920-009845] Teclado Ergonómico Inalámbrico Logitech Ergo K860, Bluetooth, USB"
+      - cell:
+        - textbox
+      - cell:
+        - spinbutton
+      - cell:
+        - spinbutton
+      - cell:
+        - spinbutton
+      - cell:
+        - spinbutton
+      - cell:
+        - textbox [disabled]
+      - cell "0":
+        - textbox [disabled]: "0"
+      - cell " ":
+        - link "":
+          - /url: "#"
+        - link "":
+          - /url: "#"
+- textbox "Observaciones y/o comentarios (máx. 450 caracteres)"
+- paragraph: Subtotal
+- paragraph: $0
+- text: Descuento global
+- spinbutton
+- button "%"
+- paragraph: $0
+- paragraph: Monto neto
+- paragraph: $0
+- paragraph: Monto exento
+- paragraph: $0
+- paragraph: IVA
+- paragraph: $0
+- paragraph:
+  - strong: Total
+- paragraph: $0
+- link "Cancelar":
+  - /url: https://demo.relbase.cl/dtes/notas-venta
+- link " Previsualizar":
+  - /url: "#"
+- button " Enviar"
+- text:  2025
+- link "Relke":
+  - /url: http://www.relke.cl
+- text: "|"
+- link "Términos y Condiciones de Uso":
+  - /url: https://www.relbase.cl/terminos
+- text: "|"
+- link "Política de Privacidad":
+  - /url: https://www.relbase.cl/politicas
+- text: "|"
+- link "Centro de Ayuda":
+  - /url: https://ayuda.relbase.cl
+- textbox: teclado
+- link " Nuevo producto":
+  - /url: "#"
+```

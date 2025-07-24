@@ -1,0 +1,414 @@
+# Page snapshot
+
+```yaml
+- navigation:
+  - paragraph: CHILE ¡Bienvenido al ambiente de demostración de relBase! Podrá visualizar y explorar todas las funcionalidades disponibles.
+- navigation:
+  - link "Relbase blanco":
+    - /url: https://demo.relbase.cl/
+    - img "Relbase blanco"
+  - list:
+    - listitem:
+      - link " Clientes":
+        - /url: https://demo.relbase.cl/clientes
+        - text: 
+        - paragraph: Clientes
+    - listitem:
+      - link " Ventas":
+        - /url: /ventas
+        - text: 
+        - paragraph: Ventas
+    - listitem:
+      - link " Punto de venta":
+        - /url: https://demo.relbase.cl/posv2/punto-de-venta
+        - text: 
+        - paragraph: Punto de venta
+    - listitem:
+      - link " Exportación":
+        - /url: https://demo.relbase.cl/dtes/facturas-exportacion
+        - text: 
+        - paragraph: Exportación
+    - listitem:
+      - link " Eventos":
+        - /url: https://demo.relbase.cl/calendario
+        - text: 
+        - paragraph: Eventos
+    - listitem:
+      - link " Configuración":
+        - /url: "#"
+        - text: 
+        - paragraph:
+          - text: Configuración
+          - strong
+  - list:
+    - listitem:
+      - button " Servici...":
+        - text: 
+        - paragraph: Servici...
+    - listitem:
+      - button " QA":
+        - text: 
+        - paragraph: QA
+- list:
+  - listitem:
+    - link "":
+      - /url: https://demo.relbase.cl/usuarios/25948/change_sidebar_toggled
+  - listitem:
+    - link " Cotizaciones":
+      - /url: https://demo.relbase.cl/cotizaciones
+  - listitem:
+    - link " Órdenes de trabajo":
+      - /url: https://demo.relbase.cl/orden-trabajo
+  - listitem:
+    - link " Notas de venta":
+      - /url: https://demo.relbase.cl/dtes/notas-venta
+    - tooltip "Notas de venta"
+  - listitem:
+    - link " Guías de despacho":
+      - /url: https://demo.relbase.cl/dtes/guias
+  - listitem:
+    - link " Facturas":
+      - /url: https://demo.relbase.cl/dtes/facturas
+  - listitem:
+    - link " Boletas":
+      - /url: https://demo.relbase.cl/dtes/boletas
+  - listitem:
+    - link " Notas de crédito":
+      - /url: https://demo.relbase.cl/dtes/nota-credito
+  - listitem:
+    - link " Notas de débito":
+      - /url: https://demo.relbase.cl/dtes/nota-debito
+  - listitem:
+    - link " Impresión masiva":
+      - /url: https://demo.relbase.cl/dtes/imprimir
+- list:
+  - listitem:
+    - link "Inicio":
+      - /url: https://demo.relbase.cl/
+  - listitem: / Ventas
+  - listitem: / Notas de venta
+- link " Nuevo":
+  - /url: "#"
+- text: "Mostrar: Pendiente Aceptada Facturada Despachada Rechazada Todo"
+- button "Filtrar por"
+- textbox "Buscar"
+- checkbox "Mostrar sólo mis notas de venta"
+- text: Mostrar sólo mis notas de venta Fecha 
+- textbox: 25-05-2025 / 24-07-2025
+- text: "Descargar:"
+- link "Excel":
+  - /url: https://demo.relbase.cl/dtes/notas-venta.xls?range_date=25-05-2025+%2F+24-07-2025&status_query=all
+- table:
+  - rowgroup:
+    - row "Cliente Nº Nota venta Total Vendedor Estado Acciones":
+      - cell "Cliente"
+      - cell "Nº Nota venta"
+      - cell "Total"
+      - cell "Vendedor"
+      - cell "Estado"
+      - cell "Acciones"
+  - rowgroup:
+    - row "Fantansia Prueba 19089916-0 141 AFECTA A IMPUESTOS $ 357 24-07-2025 QA Junior  Pendiente    ":
+      - cell "Fantansia Prueba 19089916-0":
+        - link "Fantansia Prueba":
+          - /url: "#"
+        - paragraph: 19089916-0
+      - cell "141 AFECTA A IMPUESTOS":
+        - text: "141"
+        - paragraph: AFECTA A IMPUESTOS
+      - cell "$ 357 24-07-2025":
+        - text: $ 357
+        - paragraph: 24-07-2025
+      - cell "QA Junior ":
+        - text: QA Junior
+        - paragraph: 
+      - cell "Pendiente"
+      - cell "   ":
+        - link "":
+          - /url: https://relke-erp-test.s3-us-west-2.amazonaws.com/uploads/6/6/sales_note/67788/envio_67788_902390.pdf?X-Amz-Expires=3600&X-Amz-Date=20250724T200409Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATSFAHWUNCQ7KSTET/20250724/us-west-2/s3/aws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=dda5e4a834f007decb70c46ae152e3a212da0c6dec830899b79f1aab02a48e89
+        - link "":
+          - /url: https://demo.relbase.cl/dtes/notas-venta/67788?pos=false
+        - link "":
+          - /url: "#"
+        - button ""
+    - row "Fantansia Prueba 19089916-0 140 AFECTA A IMPUESTOS $ 357 24-07-2025 QA Junior  Pendiente    ":
+      - cell "Fantansia Prueba 19089916-0":
+        - link "Fantansia Prueba":
+          - /url: "#"
+        - paragraph: 19089916-0
+      - cell "140 AFECTA A IMPUESTOS":
+        - text: "140"
+        - paragraph: AFECTA A IMPUESTOS
+      - cell "$ 357 24-07-2025":
+        - text: $ 357
+        - paragraph: 24-07-2025
+      - cell "QA Junior ":
+        - text: QA Junior
+        - paragraph: 
+      - cell "Pendiente"
+      - cell "   ":
+        - link "":
+          - /url: https://relke-erp-test.s3-us-west-2.amazonaws.com/uploads/6/6/sales_note/67784/envio_67784_399085.pdf?X-Amz-Expires=3600&X-Amz-Date=20250724T200409Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATSFAHWUNCQ7KSTET/20250724/us-west-2/s3/aws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=2fc34cd76dc9beb4596f55e5252bcec841af9c19a94d468b8ab8d6451481ae12
+        - link "":
+          - /url: https://demo.relbase.cl/dtes/notas-venta/67784?pos=false
+        - link "":
+          - /url: "#"
+        - button ""
+    - row "Fantansia Prueba 19089916-0 139 AFECTA A IMPUESTOS $ 357 24-07-2025 QA Junior  Pendiente    ":
+      - cell "Fantansia Prueba 19089916-0":
+        - link "Fantansia Prueba":
+          - /url: "#"
+        - paragraph: 19089916-0
+      - cell "139 AFECTA A IMPUESTOS":
+        - text: "139"
+        - paragraph: AFECTA A IMPUESTOS
+      - cell "$ 357 24-07-2025":
+        - text: $ 357
+        - paragraph: 24-07-2025
+      - cell "QA Junior ":
+        - text: QA Junior
+        - paragraph: 
+      - cell "Pendiente"
+      - cell "   ":
+        - link "":
+          - /url: https://relke-erp-test.s3-us-west-2.amazonaws.com/uploads/6/6/sales_note/67783/envio_67783_353127.pdf?X-Amz-Expires=3600&X-Amz-Date=20250724T200409Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATSFAHWUNCQ7KSTET/20250724/us-west-2/s3/aws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=83c4866df6f47d3e1b14a7417c287316af399ed5ea27daf9d29f96fa2f72a1f4
+        - link "":
+          - /url: https://demo.relbase.cl/dtes/notas-venta/67783?pos=false
+        - link "":
+          - /url: "#"
+        - button ""
+    - row "Fantansia Prueba 19089916-0 138 AFECTA A IMPUESTOS $ 357 24-07-2025 QA Junior  Pendiente    ":
+      - cell "Fantansia Prueba 19089916-0":
+        - link "Fantansia Prueba":
+          - /url: "#"
+        - paragraph: 19089916-0
+      - cell "138 AFECTA A IMPUESTOS":
+        - text: "138"
+        - paragraph: AFECTA A IMPUESTOS
+      - cell "$ 357 24-07-2025":
+        - text: $ 357
+        - paragraph: 24-07-2025
+      - cell "QA Junior ":
+        - text: QA Junior
+        - paragraph: 
+      - cell "Pendiente"
+      - cell "   ":
+        - link "":
+          - /url: https://relke-erp-test.s3-us-west-2.amazonaws.com/uploads/6/6/sales_note/67782/envio_67782_643611.pdf?X-Amz-Expires=3600&X-Amz-Date=20250724T200409Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATSFAHWUNCQ7KSTET/20250724/us-west-2/s3/aws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=cb57b843c816e8e11b40d17ddd79e85dd1026b00fcd5723ae0f2c854cff54a35
+        - link "":
+          - /url: https://demo.relbase.cl/dtes/notas-venta/67782?pos=false
+        - link "":
+          - /url: "#"
+        - button ""
+    - row "Fantansia Prueba 19089916-0 137 AFECTA A IMPUESTOS $ 357 24-07-2025 QA Junior  Pendiente    ":
+      - cell "Fantansia Prueba 19089916-0":
+        - link "Fantansia Prueba":
+          - /url: "#"
+        - paragraph: 19089916-0
+      - cell "137 AFECTA A IMPUESTOS":
+        - text: "137"
+        - paragraph: AFECTA A IMPUESTOS
+      - cell "$ 357 24-07-2025":
+        - text: $ 357
+        - paragraph: 24-07-2025
+      - cell "QA Junior ":
+        - text: QA Junior
+        - paragraph: 
+      - cell "Pendiente"
+      - cell "   ":
+        - link "":
+          - /url: https://relke-erp-test.s3-us-west-2.amazonaws.com/uploads/6/6/sales_note/67779/envio_67779_574046.pdf?X-Amz-Expires=3600&X-Amz-Date=20250724T200409Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATSFAHWUNCQ7KSTET/20250724/us-west-2/s3/aws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=0222edee88148e5b686da2e160437b7cc1406d27eaac78f4528e9d78f8d0362d
+        - link "":
+          - /url: https://demo.relbase.cl/dtes/notas-venta/67779?pos=false
+        - link "":
+          - /url: "#"
+        - button ""
+    - row "Fantansia Prueba 19089916-0 136 AFECTA A IMPUESTOS $ 357 24-07-2025 QA Junior  Pendiente    ":
+      - cell "Fantansia Prueba 19089916-0":
+        - link "Fantansia Prueba":
+          - /url: "#"
+        - paragraph: 19089916-0
+      - cell "136 AFECTA A IMPUESTOS":
+        - text: "136"
+        - paragraph: AFECTA A IMPUESTOS
+      - cell "$ 357 24-07-2025":
+        - text: $ 357
+        - paragraph: 24-07-2025
+      - cell "QA Junior ":
+        - text: QA Junior
+        - paragraph: 
+      - cell "Pendiente"
+      - cell "   ":
+        - link "":
+          - /url: https://relke-erp-test.s3-us-west-2.amazonaws.com/uploads/6/6/sales_note/67778/envio_67778_419791.pdf?X-Amz-Expires=3600&X-Amz-Date=20250724T200409Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATSFAHWUNCQ7KSTET/20250724/us-west-2/s3/aws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=b3b07f157c19e4a1bf25e95bc40766c6415fbe90d06fdea267ff021f6042bbb2
+        - link "":
+          - /url: https://demo.relbase.cl/dtes/notas-venta/67778?pos=false
+        - link "":
+          - /url: "#"
+        - button ""
+    - row "Fantansia Prueba 19089916-0 135 AFECTA A IMPUESTOS $ 357 24-07-2025 QA Junior  Pendiente    ":
+      - cell "Fantansia Prueba 19089916-0":
+        - link "Fantansia Prueba":
+          - /url: "#"
+        - paragraph: 19089916-0
+      - cell "135 AFECTA A IMPUESTOS":
+        - text: "135"
+        - paragraph: AFECTA A IMPUESTOS
+      - cell "$ 357 24-07-2025":
+        - text: $ 357
+        - paragraph: 24-07-2025
+      - cell "QA Junior ":
+        - text: QA Junior
+        - paragraph: 
+      - cell "Pendiente"
+      - cell "   ":
+        - link "":
+          - /url: https://relke-erp-test.s3-us-west-2.amazonaws.com/uploads/6/6/sales_note/67777/envio_67777_519065.pdf?X-Amz-Expires=3600&X-Amz-Date=20250724T200409Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATSFAHWUNCQ7KSTET/20250724/us-west-2/s3/aws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=ad5c3d7b2c405929ce445d12bdf82b9da5f742326d3733a74a53806bc6f46820
+        - link "":
+          - /url: https://demo.relbase.cl/dtes/notas-venta/67777?pos=false
+        - link "":
+          - /url: "#"
+        - button ""
+    - row "Fantansia Prueba 19089916-0 134 AFECTA A IMPUESTOS $ 357 24-07-2025 QA Junior  Pendiente    ":
+      - cell "Fantansia Prueba 19089916-0":
+        - link "Fantansia Prueba":
+          - /url: "#"
+        - paragraph: 19089916-0
+      - cell "134 AFECTA A IMPUESTOS":
+        - text: "134"
+        - paragraph: AFECTA A IMPUESTOS
+      - cell "$ 357 24-07-2025":
+        - text: $ 357
+        - paragraph: 24-07-2025
+      - cell "QA Junior ":
+        - text: QA Junior
+        - paragraph: 
+      - cell "Pendiente"
+      - cell "   ":
+        - link "":
+          - /url: https://relke-erp-test.s3-us-west-2.amazonaws.com/uploads/6/6/sales_note/67772/envio_67772_610715.pdf?X-Amz-Expires=3600&X-Amz-Date=20250724T200409Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATSFAHWUNCQ7KSTET/20250724/us-west-2/s3/aws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=9744f768d2833ecf45936313ae01859a6102a84de1df591e5765abe822ea8c8c
+        - link "":
+          - /url: https://demo.relbase.cl/dtes/notas-venta/67772?pos=false
+        - link "":
+          - /url: "#"
+        - button ""
+    - row "Fantansia Prueba 19089916-0 133 AFECTA A IMPUESTOS $ 357 24-07-2025 QA Junior  Pendiente    ":
+      - cell "Fantansia Prueba 19089916-0":
+        - link "Fantansia Prueba":
+          - /url: "#"
+        - paragraph: 19089916-0
+      - cell "133 AFECTA A IMPUESTOS":
+        - text: "133"
+        - paragraph: AFECTA A IMPUESTOS
+      - cell "$ 357 24-07-2025":
+        - text: $ 357
+        - paragraph: 24-07-2025
+      - cell "QA Junior ":
+        - text: QA Junior
+        - paragraph: 
+      - cell "Pendiente"
+      - cell "   ":
+        - link "":
+          - /url: https://relke-erp-test.s3-us-west-2.amazonaws.com/uploads/6/6/sales_note/67754/envio_67754_160828.pdf?X-Amz-Expires=3600&X-Amz-Date=20250724T200409Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATSFAHWUNCQ7KSTET/20250724/us-west-2/s3/aws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=edd6352a8e102ec57505cc5f38b74b09660173b3dfe64f09cef652393701f333
+        - link "":
+          - /url: https://demo.relbase.cl/dtes/notas-venta/67754?pos=false
+        - link "":
+          - /url: "#"
+        - button ""
+    - row "Fantansia Prueba 19089916-0 132 AFECTA A IMPUESTOS $ 357 24-07-2025 QA Junior  Pendiente    ":
+      - cell "Fantansia Prueba 19089916-0":
+        - link "Fantansia Prueba":
+          - /url: "#"
+        - paragraph: 19089916-0
+      - cell "132 AFECTA A IMPUESTOS":
+        - text: "132"
+        - paragraph: AFECTA A IMPUESTOS
+      - cell "$ 357 24-07-2025":
+        - text: $ 357
+        - paragraph: 24-07-2025
+      - cell "QA Junior ":
+        - text: QA Junior
+        - paragraph: 
+      - cell "Pendiente"
+      - cell "   ":
+        - link "":
+          - /url: https://relke-erp-test.s3-us-west-2.amazonaws.com/uploads/6/6/sales_note/67753/envio_67753_126776.pdf?X-Amz-Expires=3600&X-Amz-Date=20250724T200409Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATSFAHWUNCQ7KSTET/20250724/us-west-2/s3/aws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=cbf174e0aad20b8385141dfd62b110a95b9557d4ce3f0b0b3795cfe12c57b1da
+        - link "":
+          - /url: https://demo.relbase.cl/dtes/notas-venta/67753?pos=false
+        - link "":
+          - /url: "#"
+        - button ""
+    - row "Fantansia Prueba 19089916-0 125 AFECTA A IMPUESTOS $ 357 24-07-2025 QA Junior  Pendiente    ":
+      - cell "Fantansia Prueba 19089916-0":
+        - link "Fantansia Prueba":
+          - /url: "#"
+        - paragraph: 19089916-0
+      - cell "125 AFECTA A IMPUESTOS":
+        - text: "125"
+        - paragraph: AFECTA A IMPUESTOS
+      - cell "$ 357 24-07-2025":
+        - text: $ 357
+        - paragraph: 24-07-2025
+      - cell "QA Junior ":
+        - text: QA Junior
+        - paragraph: 
+      - cell "Pendiente"
+      - cell "   ":
+        - link "":
+          - /url: https://relke-erp-test.s3-us-west-2.amazonaws.com/uploads/6/6/sales_note/67741/envio_67741_335012.pdf?X-Amz-Expires=3600&X-Amz-Date=20250724T200409Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATSFAHWUNCQ7KSTET/20250724/us-west-2/s3/aws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=272c204c3fcc9265aa01676c5e8c92e336ed4a7315b99718edeff0cbcffc615a
+        - link "":
+          - /url: https://demo.relbase.cl/dtes/notas-venta/67741?pos=false
+        - link "":
+          - /url: "#"
+        - button ""
+    - row "Fantansia Prueba 19089916-0 124 AFECTA A IMPUESTOS $ 357 24-07-2025 QA Junior  Pendiente    ":
+      - cell "Fantansia Prueba 19089916-0":
+        - link "Fantansia Prueba":
+          - /url: "#"
+        - paragraph: 19089916-0
+      - cell "124 AFECTA A IMPUESTOS":
+        - text: "124"
+        - paragraph: AFECTA A IMPUESTOS
+      - cell "$ 357 24-07-2025":
+        - text: $ 357
+        - paragraph: 24-07-2025
+      - cell "QA Junior ":
+        - text: QA Junior
+        - paragraph: 
+      - cell "Pendiente"
+      - cell "   ":
+        - link "":
+          - /url: https://relke-erp-test.s3-us-west-2.amazonaws.com/uploads/6/6/sales_note/67740/envio_67740_70008.pdf?X-Amz-Expires=3600&X-Amz-Date=20250724T200409Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATSFAHWUNCQ7KSTET/20250724/us-west-2/s3/aws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=9cedd11f4296e95def717bb2d91733ccbc864b59fdf5031847403bd380fbedaa
+        - link "":
+          - /url: https://demo.relbase.cl/dtes/notas-venta/67740?pos=false
+        - link "":
+          - /url: "#"
+        - button ""
+- navigation:
+  - text: "1"
+  - link "2":
+    - /url: /dtes/notas-venta?branch_ids=4&current_company_id=6&current_user_id=25948&page=2&range_date=25-05-2025+%2F+24-07-2025&status_query=all&type_documents%5B%5D=1001
+  - link "3":
+    - /url: /dtes/notas-venta?branch_ids=4&current_company_id=6&current_user_id=25948&page=3&range_date=25-05-2025+%2F+24-07-2025&status_query=all&type_documents%5B%5D=1001
+  - link "4":
+    - /url: /dtes/notas-venta?branch_ids=4&current_company_id=6&current_user_id=25948&page=4&range_date=25-05-2025+%2F+24-07-2025&status_query=all&type_documents%5B%5D=1001
+  - link "5":
+    - /url: /dtes/notas-venta?branch_ids=4&current_company_id=6&current_user_id=25948&page=5&range_date=25-05-2025+%2F+24-07-2025&status_query=all&type_documents%5B%5D=1001
+  - text: …
+  - link "Siguiente ›":
+    - /url: /dtes/notas-venta?branch_ids=4&current_company_id=6&current_user_id=25948&page=2&range_date=25-05-2025+%2F+24-07-2025&status_query=all&type_documents%5B%5D=1001
+  - link "Última »":
+    - /url: /dtes/notas-venta?branch_ids=4&current_company_id=6&current_user_id=25948&page=7&range_date=25-05-2025+%2F+24-07-2025&status_query=all&type_documents%5B%5D=1001
+- text:  2025
+- link "Relke":
+  - /url: http://www.relke.cl
+- text: "|"
+- link "Términos y Condiciones de Uso":
+  - /url: https://www.relbase.cl/terminos
+- text: "|"
+- link "Política de Privacidad":
+  - /url: https://www.relbase.cl/politicas
+- text: "|"
+- link "Centro de Ayuda":
+  - /url: https://ayuda.relbase.cl
+```
